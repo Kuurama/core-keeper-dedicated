@@ -53,7 +53,7 @@ RUN case "${TARGETARCH}" in \
     esac
 
 # Download Depot downloader
-ARG DEPOT_DOWNLOADER_VERSION="2.7.4"
+ARG DEPOT_DOWNLOADER_VERSION="3.4.0"
 RUN case "${TARGETARCH}" in \
         "amd64") DEPOT_DOWNLOADER_FILENAME=DepotDownloader-linux-x64.zip ;; \
         "arm64") DEPOT_DOWNLOADER_FILENAME=DepotDownloader-linux-arm64.zip ;; \
